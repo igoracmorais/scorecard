@@ -23,7 +23,7 @@ default: (Variavel objetivo - yes: default; no: pagou) <br>
    Os conceitos, comentários e demais observações sobre o WOE e IV são todos feitos diretamente no notebook.
    
 ## 3. Scorecardpy
-
+   O pacote é idêntico ao que foi desenvolvido no R, com apenas algumas pequenas diferenças de opções de funções. A descrição do uso do pacote no Python é bem precária, com apenas um exemplo e mesmo assim pouco explicado. E em português, por exemplo, não encontraremos quase nada. Isso me motivou a desenvolver, de forma mais didática, esses notebooks e espero que sejam úteis. Sugiro ir no github do pacote e ver as fórmulas, isso irá proporcionar ao mesmo tempo uma melhor compreensão das mesmas e fortalecer o seu entendimento de como usar o Python. Para aqueles com facilidade em R, podem acessar o link (https://cran.r-project.org/web/packages/scorecard/index.html) e ver algumas explicações sobre as funções. O objetivo dessa primeira parte é criar os valores do woe e iv para cada uma das variaveis do arquivo "german_credit_data2.csv". Ao final salvamos os resultados em um novo arquivo de nome "woe_to_model.csv" para ser utilizado no notebook 4.
 
 ## 4. Modelo_basico
 
