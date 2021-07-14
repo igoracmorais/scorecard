@@ -19,8 +19,9 @@ default: (Variavel objetivo - yes: default; no: pagou) <br>
   Alem disso, há valores nulos em "saving accounts" e "checking account" e no notebook apresentamos algumas opções de como preencher esses valores. Os resultados são salvos e depois disponibilizados como "german_credi_data2.csv" para que se tenha uma reprodução igual nos notebooks seguintes. 
    
 ## 2. WOE_IV
-
-
+   Nesse notebook explico os conceitos de WOE - Weight of Evidence e IV - Information Value que são aplicados posteriormente no estudo de scorecard. Esse processo é feito passo a passo, ou seja, as estatísticas são construídas "na mão". Isso dá um pouco de trabalho, mas entendo que seria a forma mais eficiente de se aprender o significado das mesmas e o cientista de dados que assim proceder adquire um conhecimento que irá diferencia-lo dos demais. Caso não queira ver como isso funciona no detalhe, pode pular esse notebook e ir direto para o notebook 3, onde mostro como aplicar o pacote scorecardpy, que tem essas fórmulas já prontas para apenas "apertar o botão".
+   Os conceitos, comentários e demais observações sobre o WOE e IV são todos feitos diretamente no notebook.
+   
 ## 3. Scorecardpy
 
 
