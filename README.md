@@ -30,3 +30,6 @@ default: (Variavel objetivo - yes: default; no: pagou) <br>
    A seguir, discutimos as diversas formas de aplicar a técnica do cross-validation, muito importante para refinar as estimativas em Machine Learning para, em seguida, fazer a junção entre o modelo de regressão logística com cross-validation. A seguir é discutida a aplicação do processo de otimização dos hyperparâmetros, tanto com o RandomSearchCV quanto com o GridSearchCV. Ao final, salvamos o modelo que será usado no notebook 5.
 
 ## 5. Inserindo_LR_no_scorecard
+   Essa sessão encerra o primeiro ciclo de construção do scorecard. Após a definição do modelo final, feito na sessão 4, usamos duas funções do pacote para ter o score:  i) scorecard - usa como input os intervalos (bins) criados anteriormente pela função woebin para cada variavel, juntamente com o modelo da sessão 4. O resultado aqui ainda não é o score. Para obtê-lo temos que aplicar outra função: ii) scorecard_ply - usa o resultado obtido na função scorecard juntamente com o banco de dados para definir o score para cada individuo.
+
+Sugestões de melhoria desse notebook são bem vindas!
